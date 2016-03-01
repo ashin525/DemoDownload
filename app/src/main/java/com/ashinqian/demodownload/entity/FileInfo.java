@@ -8,6 +8,7 @@ import java.io.Serializable;
  */
 public class FileInfo implements Serializable{
     private int id;
+    private int a;
     private String url;
     private String fileName;
     private int length;
